@@ -1,0 +1,25 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="GodotLab"
+config/tags=PackedStringArray("测试")
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/filesystem_drawer/plugin.cfg", "res://addons/script-dock/plugin.cfg")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+viewport/hdr_2d=true
